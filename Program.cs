@@ -664,7 +664,7 @@ namespace AsyncFramework
         public static void DOTaskWithAsync(MyLittleClock t)
         {
             Console.WriteLine(" Task really Start!");
-            string _html = LocalTaskImporter();
+            //string _html = LocalTaskImporter();
             for (int i = startPage; i < endPage; i++)
             {
                 string downloadpage = websiteLink + "thread0806.php?fid=25&search=&page=" + i.ToString();
